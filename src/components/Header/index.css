@@ -1,0 +1,98 @@
+.navBarContainer {
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.websiteTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262626;
+  margin: 0px;
+}
+.navBarLogoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+.website-logo {
+  height: 30px;
+  margin-right: 15px;
+}
+.navBarListContents {
+  display: flex;
+  flex-direction: row;
+}
+.navBarMiniContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  list-style-type: none;
+  margin: 0px;
+}
+.navBarMiniContents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.searchButton {
+  height: 10px;
+  width: 10px;
+}
+.search-container {
+  height: 28px;
+  width: 214px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchInput {
+  height: 26px;
+  width: 180px;
+  border-style: none;
+}
+.buttonSearch {
+  height: 26px;
+  width: 34px;
+  border-style: none;
+  background: #dbdbdb;
+  border-radius: 0px 2px 2px 0px;
+}
+.LogOutButton {
+  background: #4094ef;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: roboto;
+  width: 86px;
+  height: 32px;
+  margin-left: 15px;
+  border-style: none;
+}
+.listItem {
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.listItemStyle {
+  text-decoration: none;
+}

@@ -1,0 +1,99 @@
+.container {
+  margin: auto;
+  width: 80%;
+}
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding: 15px;
+}
+
+.profilePic {
+  width: 180px;
+  height: 180px;
+}
+
+.profilePostContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profileName {
+  margin: 0px;
+}
+
+.profileContent {
+  margin-right: 10px;
+}
+.profileDetails {
+  margin-left: 20px;
+}
+
+.storiesContainer {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.storyImage {
+  border-radius: 100%;
+  width: 86px;
+  height: 86px;
+  margin-right: 20px;
+}
+.postContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.postText {
+  margin: none;
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+.boxIcon {
+  margin: none;
+}
+.postsList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 0;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+.postImage {
+  margin: none;
+  width: 330px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.noPostsText {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+}
+.camContainer {
+  border: solid;
+  border-radius: 100%;
+  border-width: 1px;
+}
+.camImage {
+  font-size: 48px;
+  margin: 15px;
+  stroke-width: 0.01;
+}
+.noPostContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

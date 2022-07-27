@@ -1,0 +1,20 @@
+.postCardList {
+  list-style-type: none;
+}
+.postFailureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.postFailureButton {
+  background: #4094ef;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: roboto;
+  width: 86px;
+  height: 32px;
+  margin-left: 15px;
+  border-style: none;
+}
